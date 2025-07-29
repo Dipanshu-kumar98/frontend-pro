@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  display: inline-block;
+  background: #0a59f7;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-top: 10px;
+  border:2px solid white
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a59f7;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: #333;
+  font-weight: 500;
+}
+
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 40px;
+  background: #0a59f7;
+  color: #fff;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+}
+
+.hero-img {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.hero-img img {
+  max-width: 300px;
+  height: auto;
+}
+
+
+.services {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  max-width: 280px;
+  text-align: center;
+}
+
+.card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+
+.why-choose {
+  background: #eef5ff;
+  padding: 60px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.why-text {
+  flex: 1;
+}
+
+.why-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-text li {
+  margin: 10px 0;
+}
+
+.why-img {
+  flex: 1;
+  text-align: center;
+}
+
+.why-img img {
+  max-width: 300px;
+}
+
+
+.about-info {
+  padding: 60px 40px;
+}
+
+.about-info .values {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.values div {
+  flex: 1;
+}
+
+
+.pricing .plans {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.plan {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  width: 250px;
+}
+
+
+.contact {
+  padding: 60px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #eef5ff;
+  align-items: center;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-img {
+  flex: 1;
+  text-align: center;
+}
+
+.contact-img img {
+  max-width: 300px;
+}
